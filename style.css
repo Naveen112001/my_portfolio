@@ -4,6 +4,9 @@
     padding: 0px;
     box-sizing:border-box ;
 }
+table, th, td {
+    border: 1px solid black;
+  }
 nav{
     display: flex;
     justify-content:space-around;
