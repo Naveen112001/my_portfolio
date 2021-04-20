@@ -7,6 +7,10 @@
 table, th, td {
     border: 1px solid black;
   }
+  img{
+      height: 250px;
+      width: 200px;
+  }
 nav{
     display: flex;
     justify-content:space-around;
@@ -41,7 +45,23 @@ nav{
     font-weight: bold;
     font-size: 14px;
     
-    }
+    }  
+      
+      /* Create three equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        height: 300px; /* Should be removed. Only for demonstration */
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
     .bugger{
         display: none;
     }
